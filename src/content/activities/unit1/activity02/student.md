@@ -17,4 +17,8 @@ Entrega: un texto corto con la descripción del proyecto imaginario, la integrac
 
 ##### Tipo de interacción con el mundo físico:
 
--
+- La interacción que se espera realizar con el mundo fisico es lograr que el usuario tenga una experiencia inmersiva más "real", por ejemplo, si el personaje esta agarrando alguna espada el usuario sea capaz de poder sentir la presión de estar agarrando algo imaginario en sus manos o si está luchando el usuario sea capaz de sentir los golpes en forma de vibraciones.
+
+##### Problemas que se podrían encontrar al implementar estos sistemas:
+
+- 
