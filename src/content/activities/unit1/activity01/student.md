@@ -1,10 +1,11 @@
 #### Mi solución a la actividad
 
-1111111111111111111111111111111111  
-2222222222222222222222222222222222  
-333333333333333333333333333333333333  
+Antes de identificar los dispositivos de entrada y salida primero hay que definirlos.
 
-``` js
-Function set (){
-}
-```
+- Dispositivos de entrada: son todos aquellos dispositivos que permiten introducir datos o información en un ordenador.
+- Dispositvos de salida: Aportan a los ordenadores la función de comunicar información al usuario luego de ser procesada. 
+
+**Primer ejemplo**: Videojuegos de realidad virtual como es el caso de *Beat saber* los dispositivos de entrada son en teoría los controladores de movimiento o sensores que son capaces de poder captar los gestos y
+movimientos del usuario. Mientras tanto los dispositivos de salida son las gafas VR que muestran la imagen como si estuvieras dentro del juego y esto permite que el usuario pueda interactuar de forma fisica con un entorno virtual en tiempo real.
+
+**Segundo ejemplo**: Juegos de simulación de conducción o carreras
