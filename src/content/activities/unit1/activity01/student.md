@@ -1,4 +1,4 @@
-#### Mi solución a la actividad
+## Mi solución a la actividad
 
 Antes de identificar los dispositivos de entrada y salida primero hay que definirlos.
 
@@ -10,4 +10,4 @@ movimientos del usuario. Mientras tanto los dispositivos de salida son las gafas
 
 **Segundo ejemplo**: Juegos de simulación de conducción o carreras teniendo de ejemplo al videojuego *F1 2020*, se pueden utilizar volantes y pedales como dispositivos de entrada y las pantallas de distintas formas (ya sea panoramica, monitor 4K o gafas de realidad virtual) son los dispositivos de salida que aumentan la inmersion y con ello mejoran la experiencia de usuario.
 
-**Tercer ejemplo**: 
+**Tercer ejemplo**: Casos como *Pokemon Go* se utilizan los celulares como dispositivos de entrada y al mismo tiempo de salida. la cámara del celular puede captar el entorno fisico mientras que la panalla muestra los elementos digitales puestos como si fuera AR, los sensores de GPS ayudan a registrar la ubicación y la orientación del usuario.
