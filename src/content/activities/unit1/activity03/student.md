@@ -19,9 +19,8 @@ propiedades materiales o cualquier otro tipo de información relevante, los dato
 #### Parámetros:
 - Son las variables o límites que el diseñador establece dentro del algoritmo para guiar el proceso de generación.
 Estos pueden incluir dimensiones físicas, restricciones materiales, criterios estéticos o cualquier otro factor relevante al proyecto.
-#### Diseño programado: 
-- El diseño programado, en el contexto del diseño generativo basado en datos, es un enfoque de comunicación que genera símbolos y elementos visuales mediante reglas.
-Combina datos, narrativa, programación, interacción y forma para crear nuevas formas de expresión y comunicación. A través de un programa (conjunto de reglas),
-se generan múltiples resultados visuales a partir de decisiones definidas y entradas específicas. La libertad del sistema depende de la creatividad, intención y habilidades humanas,
-convirtiéndose en un proceso de co-creación entre el diseñador y la máquina
+
+#### Algoritmos:
+- Un algoritmo es una serie de reglas para calcular operaciones que se utilizan para resolver un problema especifico, puede ser implementado en cualquier lenguaje de programación y es en la mayoría de casos parte del programa que puede tener distintos algoritmos.
+
 
