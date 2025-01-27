@@ -21,4 +21,10 @@ Entrega: un texto corto con la descripción del proyecto imaginario, la integrac
 
 ##### Problemas que se podrían encontrar al implementar estos sistemas:
 
-- 
+- Costos muy elevados debido a la gran tecnología que se necesitaría, asegurar la integridad del usuario al usar estos mecanismos junto con el hecho de diseñar tutoriales para que puedan
+utilizar estos mecanismos nuevos.
+
+##### Reflexión sobre los desafíos
+
+- Este proyecto integraría todos los conocimientos del curso entre la interacción del humano y la maquina, combinando dispositivos de salida y entrada, aplicando tecnología con el diseño enfocado en la experiencia inmersiva
+del usuario.
