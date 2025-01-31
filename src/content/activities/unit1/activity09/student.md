@@ -237,3 +237,16 @@ function drawRandomLines() {
 3. drawWavePattern() Dibuja ondas usando sin().
 4. drawCircleGrid() Dibuja circulos con tamaños y colores aleatorios.
 5. DrawRandomLines() Dibuja lineas con colores aleatorios.
+
+#### Fotos:
+
+
+![WhatsApp Image 2025-01-31 at 4 52 24 PM](https://github.com/user-attachments/assets/f787ff9a-9aaa-4e44-a9e4-2b452199c8ad)
+![WhatsApp Image 2025-01-31 at 4 52 25 PM](https://github.com/user-attachments/assets/57d4cb9f-dd8f-468b-a090-dfe4ff94dca3)
+![WhatsApp Image 2025-01-31 at 4 52 25 PM (1)](https://github.com/user-attachments/assets/df367083-f516-420f-bf9b-768a7d4cf625)
+![WhatsApp Image 2025-01-31 at 4 52 27 PM](https://github.com/user-attachments/assets/fce39778-c076-4b11-8d0f-1028ff146de0)
+![WhatsApp Image 2025-01-31 at 4 52 27 PM (1)](https://github.com/user-attachments/assets/2e1f1b88-b183-4a6a-910b-0f43670c65f6)
+![WhatsApp Image 2025-01-31 at 4 52 27 PM (2)](https://github.com/user-attachments/assets/4117b244-b4ac-4d96-b75e-bb6f347c52fb)
+![WhatsApp Image 2025-01-31 at 4 52 27 PM (3)](https://github.com/user-attachments/assets/fb44ab83-3931-4e0d-88f9-6c4349297414)
+
+
