@@ -225,4 +225,15 @@ function drawRandomLines() {
   }
 }
 ```
-- 
+- Lo mismo pero puse que se dibujaran 50 lineas con colores aleatorios.
+- Elijo el punto de inicio aleatorio.
+- Los puntos finales con cos y sin son aleatorios pero dentro de un rango de 50 pixeles
+- Se dibuja cada linea con las coordenadas dadas.
+
+#### Pequeño resumen
+
+1, Con el setup(), creo el lienzo y el botón para cambiar los patrones.
+2. drawPattern() limpia el lienzo y elige el patron aleatorio.
+3. drawWavePattern() Dibuja ondas usando sin().
+4. drawCircleGrid() Dibuja circulos con tamaños y colores aleatorios.
+5. DrawRandomLines() Dibuja lineas con colores aleatorios.
