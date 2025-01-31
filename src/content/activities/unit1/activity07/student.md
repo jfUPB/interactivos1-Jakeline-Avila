@@ -1,6 +1,6 @@
 ### Mi solución a la actividad 7
 
-#### Ejemplo: *"No man's sky"
+#### Ejemplo: "No man's sky"
 
 
 - Aplicación del Diseño Generativo: En "No Man’s Sky", el universo es generado de manera procedural, 
