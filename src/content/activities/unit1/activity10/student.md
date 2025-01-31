@@ -147,14 +147,18 @@ port = createSerial();
 
 Esto permite que p5.js se comunique con el micro:bit a través de un puerto USB virtual.
 
-Se crea un botón para conectar o desconectar el micro:bit:
+- Se crea un botón para conectar o desconectar el micro:bit :
 
+``` js
 connectBtn = createButton('Connect to micro:bit');
 connectBtn.mousePressed(connectBtnClick);
+```
 
-Al hacer clic en el botón, se ejecuta:
+- Al hacer clic en el botón, se ejecuta:
 
+``` js
 port.open('MicroPython', 115200);
+```
 
 que abre la conexión serial con el micro:bit.
 
@@ -163,35 +167,39 @@ que abre la conexión serial con el micro:bit.
 
 ---
 
-2. Enviando Datos
+#### 2. Enviando Datos
 
-Cuando se presiona el botón "Send Love" en p5.js, se ejecuta:
+- Cuando se presiona el botón "Send Love" en p5.js, se ejecuta:
 
+``` js
 port.write('h');
-
+```
 Esto envía la letra 'h' al micro:bit.
 
-Micro:bit recibe este dato y lo interpreta en el código:
+- Micro:bit recibe este dato y lo interpreta en el código:
 
+``` js
 if uart.any():
     data = uart.read(1)  # Lee 1 byte de datos
     if data and data[0] == ord('h'):
         display.show(Image.HEART)
         sleep(500)
         display.show(Image.SQUARE)  # Vuelve a mostrar el cuadrado
-
+```
 Si recibe 'h', muestra un corazón por 500 ms y luego vuelve al cuadrado.
 
 
 
 ---
 
-3. Recibiendo Datos
+#### 3. Recibiendo Datos
 
-Cuando p5.js detecta que hay datos disponibles en el puerto serial:
+- Cuando p5.js detecta que hay datos disponibles en el puerto serial:
 
+``` js
 if (port.availableBytes() > 0) {
     let dataRx = port.read(1);
+```
 
 Si recibe 'A', cambia el color del cuadrado a rojo.
 
@@ -199,23 +207,9 @@ Si recibe 'B', cambia el color del cuadrado a amarillo.
 
 Si recibe otro dato ('C'), cambia el color a verde.
 
+#### Foto del microbit y el código
 
+![WhatsApp Image 2025-01-31 at 5 27 06 PM (3)](https://github.com/user-attachments/assets/18736584-8745-4e80-ba7f-e88f9f5901f4)
 
----
+![WhatsApp Image 2025-01-31 at 5 27 06 PM (2)](https://github.com/user-attachments/assets/54e9eea9-a092-4615-9556-dd40c00812f8)
 
-Flujo Completo de Comunicación
-
-1. Conectar micro:bit desde p5.js.
-
-
-2. Micro:bit envía datos según la acción del usuario (botones o movimiento).
-
-
-3. p5.js recibe los datos y cambia el color del cuadrado en pantalla.
-
-
-4. Si se presiona "Send Love" en p5.js, micro:bit cambia su pantalla a un corazón temporalmente.
-
-
-
-Este proceso se repite constantemente, permitiendo interacción en tiempo real.
