@@ -7,8 +7,8 @@ Entrega: Código del programa en p5.js y el código para micro:bit. Describe có
 
 ### Mi solución a la actividad 11
 
-p5.js
-
+### p5.js
+``` js
 let port;
 let circleX;
 
@@ -52,21 +52,29 @@ function connectBtnClick() {
         port.close();
     }
 }
-
-micro:bit Python
+``` 
+### micro:bit Python
+``` js
 from microbit import *
 
 uart.init(baudrate=115200)
-display.show(Image.ARROW_E)  # Flecha apuntando a la derecha
+display.show(Image.ARROW_E) 
 
 while True:
     if button_a.is_pressed():
-        uart.write('A')  # Envía 'A' a p5.js
-        display.show(Image.ARROW_W)  # Flecha apuntando a la izquierda
+        uart.write('A')
+        display.show(Image.ARROW_W)  
         sleep(200)
         display.show(Image.ARROW_E)
 
     if button_b.is_pressed():
         uart.write('B')  # Envía 'B' a p5.js
-        display.show(Image.ARROW_E)  # Flecha apuntando a la derecha
+        display.show(Image.ARROW_E) 
         sleep(200)
+```
+
+### Resumen de lo que se hizo en el código:
+
+- Se dibuja el círculo en p5.js
+- Los botones A y B del micro:bit lo mueven en x, es decir, horizontalmente.
+- El micro:bit muestra las flechas según el botón presionado.
