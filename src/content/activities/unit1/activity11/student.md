@@ -78,3 +78,4 @@ while True:
 - Se dibuja el círculo en p5.js
 - Los botones A y B del micro:bit lo mueven en x, es decir, horizontalmente.
 - El micro:bit muestra las flechas según el botón presionado.
+- En circle_x se actualiza la posición del circulo.
