@@ -5,6 +5,15 @@ Entrega: en tu bitácora, escribe tu meta SMART para esta unidad, describiendo q
 
 ### Mi solución a la actividad 2
 
-#### Específica 
+- Específica: Me enfocaré en dominar los conceptos fundamentales de la unidad 2 y su aplicación en ejercicios prácticos.
 
-- La metodología de 
+- Medible: Evaluaré mi aprendizaje completando un resumen bien estructurado y resolviendo los 16 ejercicios.
+
+- Alcanzable: La meta es realista, ya que dedicaré tiempo diario al estudio y práctica de los ejercicios.
+
+- Relevante: Es importante para mi desarrollo académico y mi comprensión del curso.
+
+- Tiempo definido: Cumpliré esta meta en un plazo de 7 días, completando el resumen en los primeros 3 días y resolviendo los ejercicios en los 4 días siguientes.
+
+
+
