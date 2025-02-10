@@ -77,5 +77,98 @@ while True:
 
 #### Salidas:
 
-- 
+- Matriz de LEDs (5x5): Pantalla de 25 LEDs que permite mostrar imágenes, números o texto.
 
+``` js
+from microbit import *
+
+
+while True:
+    
+    display.scroll('JOHANNY Y JEINNY')    
+   
+```
+
+- Speaker: Genera sonidos y melodías mediante programación.
+
+``` js
+from microbit import *
+import music
+
+
+
+
+while True:
+    
+    music.play(music.BA_DING)
+```
+
+- Salida en serie: Se pueden enviar mensajes al pc mediante la conexión USB.
+
+``` js
+
+from microbit import *
+
+
+
+while True:
+    
+   print("Hola desde Micro:bit")
+```
+- Los pines de salida: Permiten controlar dispositivos externos como LEDs motores o sensores.
+
+``` js
+from microbit import *
+
+
+
+
+
+while True:
+    
+    if pin1.is_touched():
+        display.show(1)
+```
+
+#### Funciones de entrada:
+
+
+1. button_a.is_pressed() y button_b.is_pressed()
+
+Descripción: Detecta si se ha presionado un botón.
+
+
+
+2. accelerometer.get_x(), get_y(), get_z()
+
+Descripción: Obtiene la aceleración en cada eje.
+
+
+
+3. pinX.is_touched()
+
+Descripción: Detecta si un pin ha sido tocado.
+
+
+
+
+
+---
+
+#### Funciones para Salidas
+
+1. display.show()
+
+Descripción: Muestra texto o imágenes en la matriz de LEDs.
+
+
+
+2. music.play()
+
+Descripción: Reproduce una melodía o tono.
+
+
+
+3. pinX.write_digital(1) y pinX.write_digital(0)
+
+Descripción: Envía una señal digital (1 o 0) a un pin.
