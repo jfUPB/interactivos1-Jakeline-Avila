@@ -1,4 +1,4 @@
-from microbit import *
+<!-- from microbit import *
 import utime
 import music
 
@@ -110,3 +110,4 @@ while True:
             interval = CONFIG_INTERVAL
             time_left = 20
             display.show(Image.HAPPY)
+-->
