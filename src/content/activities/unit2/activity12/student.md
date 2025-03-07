@@ -83,7 +83,7 @@ while True:
                 display.show(Image.SKULL) 
 
         // Botón “touch” para desarmar (ejemplo: pin1.read_digital() == 1)
-        // Si tienes un pin táctil, descoméntalo:
+        
         
             if pin1.is_touched():
              current_state = STATE_CONFIG
