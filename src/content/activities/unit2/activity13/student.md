@@ -5,5 +5,4 @@ Entrega: un párrafo en tu bitácora (mínimo 150 palabras) reflexionando sobre 
 
 ### Mi solucion 13
 
-- Basicamente utilicé el código la actividad 10 para lograr hacer la actividad 12, se me dificulto bastante de los eventos pero guiandome del codigo pude lograrlo, ejemplo la parte de los intervalos y segundos use el mismo del codigo
-pero lo logré hacer. Tomé algunas decisiones diferentes como lo de la música, configurar un botón para reiniciarlo todo, pero del resto utilicé el mismo código. 
+- Basicamente utilicé el código la actividad 10 para lograr hacer la actividad 12, se me dificulto bastante de los eventos pero guiandome del codigo pude lograrlo, ejemplo la parte de los intervalos y segundos use el mismo del codigopero lo logré hacer. Tomé algunas decisiones diferentes como lo de la música, configurar un botón para reiniciarlo todo, pero del resto utilicé el mismo código. Posibles mejoras es que creo que debe haber una forma más fácil para hacerlo, debido a que añadí más if de lo necesario en especial en la parte de los STATES. 
