@@ -2,7 +2,7 @@
 
 Codigo:
 
-
+``` js
 from microbit import *
 import utime
 
@@ -57,7 +57,8 @@ while True:
     semaforo1.update()            
     semaforo2.update()           
     semaforo3.update()             
-    utime.sleep_ms(100)            
+    utime.sleep_ms(100)
+```
 
   - Reflexion: El uso de clases en este proyecto permite encapsular tanto los datos (como la columna asignada y los tiempos de cada estado) como los comportamientos (actualización y visualización del semáforo) en una única entidad, facilitando la reutilización y escalabilidad del código; además,
     la implementación de máquinas de estado garantiza transiciones claras y controladas entre los diferentes estados, lo que simplifica el manejo concurrente de varios semáforos en un solo display.
