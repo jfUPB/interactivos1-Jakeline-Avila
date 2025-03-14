@@ -1,5 +1,7 @@
 ### Mi solucion a la actividad 2
 
+
+``` js
 from microbit import * 
 import utime              
 import music
@@ -109,3 +111,4 @@ while True:
             interval = CONFIG_INTERVAL              
             time_left = 20                
             display.show(Image.HAPPY)             
+```
