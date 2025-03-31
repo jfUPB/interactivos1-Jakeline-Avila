@@ -72,3 +72,31 @@ Función: saveCanvas(filename, extension)
 Descripción: Guarda el lienzo actual como una imagen en el formato especificado (en este caso, PNG). Se usa para guardar la imagen cuando el usuario presiona la tecla 'S'.
 
 Uso en el código: saveCanvas(gd.timestamp(), 'png');
+
+##### El de open:
+
+- Usa las mismas que el anterior, Este sketch generativo crea una representación abstracta de un eclipse solar utilizando una variedad de técnicas de p5.js, como ruido Perlin, partículas aleatorias, y gráficos dinámicos.
+
+##### El de p5.js examples:
+
+- Sistema de Partículas:
+
+Descripción: Se utiliza un sistema de partículas para simular el comportamiento del humo. Cada partícula tiene una posición, velocidad, aceleración y vida útil. El sistema es capaz de agregar nuevas partículas, aplicar fuerzas a todas las partículas y eliminar las partículas muertas.
+
+- Aplicación:
+
+particleSystem = new ParticleSystem(0, createVector(width / 2, height - 60), particleTexture); inicializa el sistema de partículas.
+
+Las partículas se actualizan y se dibujan en cada cuadro con particleSystem.run();.
+
+- Viento Influenciado por el Cursor:
+
+Descripción: La posición del cursor en el eje x se mapea a una fuerza de viento que se aplica al sistema de partículas. Este viento hace que las partículas se muevan de manera horizontal, creando un efecto interactivo.
+
+- Aplicación:
+
+La variable dx se calcula a partir de la posición del mouse y se usa para crear un vector de viento: let wind = createVector(dx, 0);.
+
+Este vector de viento se aplica al sistema de partículas con particleSystem.applyForce(wind);.
+
+- Este sketch generativo crea un sistema de partículas que simula humo que se mueve en respuesta a la posición del cursor, lo que permite la interacción en tiempo real con el dibujo. La textura aplicada a las partículas, la vida útil de las partículas, y la influencia de las fuerzas externas como el viento (calculado a partir de la posición del cursor) hacen que este sketch sea dinámico e interactivo. El uso de clases (como ParticleSystem y Particle) facilita la gestión y control de las partículas y sus comportamientos.
