@@ -19,7 +19,7 @@
 
 - Se cargan 4 imágenes SVG (representadas por los índices 1 a 4 de lineModule) que se pueden usar como "pinceles" para el dibujo. Si no se usan, se dibujan líneas simples.
 
-######## Configuración inicial (función setup()):
+#### Configuración inicial (función setup()):
 
 - Se crea el lienzo con createCanvas(windowWidth, windowHeight), lo que hace que el tamaño del lienzo se ajuste al tamaño de la ventana del navegador.
 
@@ -27,7 +27,7 @@
 
 - Se inicializa el color predeterminado c en un tono de amarillo.
 
-###### Dibujo (función draw()):
+#### Dibujo (función draw()):
 
 - Si el botón izquierdo del ratón está presionado (mouseIsPressed), el código dibuja en la posición actual del ratón (mouseX, mouseY).
 
@@ -37,13 +37,13 @@
 
 - Si lineModuleIndex no es 0 (lo que indica que se usa un SVG como módulo), se dibuja ese SVG con image(lineModule[lineModuleIndex], 0, 0, lineModuleSize, lineModuleSize). Si no, se dibuja una línea simple.
 
-#####Interacción con el mouse:
+##### Interacción con el mouse:
 
 - Cuando se presiona el ratón, se guarda la posición en clickPosX y clickPosY. Esto ayuda a limitar el movimiento del dibujo si se presiona la tecla Shift.
 
-#####Eventos de teclado:
+##### Eventos de teclado:
 
-###### Flechas de dirección:
+#### Flechas de dirección:
 
 - UP_ARROW aumenta el tamaño del módulo (lineModuleSize).
 
@@ -53,7 +53,7 @@
 
 - RIGHT_ARROW aumenta la velocidad de rotación.
 
-######## Teclas para cambiar el color:
+##### Teclas para cambiar el color:
 
 - 1 a 4 cambian el color a una de las opciones predefinidas.
 
@@ -69,16 +69,16 @@
 
 - Tecla delete o backspace limpia el lienzo.
 
-###### Función mousePressed():
+#### Función mousePressed():
 
 - Se establece un nuevo tamaño aleatorio para el módulo cada vez que se hace clic.
 
 - Se guarda la posición del clic para limitar el movimiento cuando se usa la tecla Shift.
 
-######## Función keyPressed():
+##### Función keyPressed():
 
 - Permite ajustar el tamaño del módulo y la velocidad de rotación mediante las teclas de flecha, y permite seleccionar el módulo o color que se desea.
 
-########Función keyReleased():
+##### Función keyReleased():
 
 - Se ejecutan diferentes acciones dependiendo de la tecla que se suelta. Por ejemplo, se guarda el lienzo si se presiona la tecla s, o se cambia el color si se presiona space.
