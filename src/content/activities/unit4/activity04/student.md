@@ -9,3 +9,6 @@ el código en Python se enfoca en la recolección y transmisión de datos, el en
 vincula los archivos necesarios para que el navegador pueda conectarse al micro:bit, 
 lo cual no es necesario en el código que corre directamente en el dispositivo.
 
+- Ejecuta el sketch. Si no tienes errores podrás continuar. Reflexiona ¿Para qué se usan estas imágenes? ¿Qué representan? Revisa de nuevo el sketch original y analiza.
+
+R/= Estas imágenes pueden funcionar como un sistema de estados visuales: si el micro:bit se inclina hacia un lado, se podría mostrar la imagen 03.svg; si se presiona un botón, se podría cambiar a 04.svg, etc. Es decir, representan visualmente los datos del sensor en tiempo real de manera gráfica y llamativa. Estas imágenes SVG están precargadas en el sketch mediante la función preload(), lo que indica que son elementos gráficos esenciales para la visualización. 
