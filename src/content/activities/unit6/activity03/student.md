@@ -9,7 +9,13 @@ Respuesta: Usar módulos o librerías permite ahorrar tiempo, evitar errores y r
 
 4. ¿Qué ocurre si cambio la carpeta ‘views’ por una que no existe? ¿Por qué? ¿Qué mensaje ves en el navegador?
 
-Respuesta: Si cambias views por una carpeta que no existe, al abrir http://localhost:3000/page1.html el navegador mostrará un error 404 (Archivo no encontrado), y en la consola del desarrollador podrías ver que el recurso no se carga. Esto ocurre porque Express intenta buscar los archivos estáticos en una carpeta que no puede encontrar.
+![image](https://github.com/user-attachments/assets/0686dfce-b8ef-426f-974b-9fcbd6ce706b)
+![image](https://github.com/user-attachments/assets/1afeee85-569b-4d82-8db0-d41f01fad1d5)
+
+- Pasa esto debido a que en views esta almacenado todo lo de las paginas, por lo tanto cambiarlo  una carpeta que no existe no hay forma de que pueda
+buscarla porque no existe.
+
+
 
 
 ---
@@ -23,14 +29,9 @@ Respuesta: Al cambiar la ruta a /pagina_uno, http://localhost:3000/page1 dejará
 
 6. ¿Qué mensaje ves al abrir page1 y page2 en el navegador? ¿Los IDs son diferentes? ¿Coinciden los IDs al desconectarse?
 
-Respuesta: Al abrir page1, el servidor imprime algo como:
-A user connected - ID: abc123
-Y al abrir page2, otro ID diferente, por ejemplo:
-A user connected - ID: def456
+Respuesta: ![image](https://github.com/user-attachments/assets/4f183f43-a468-4d72-a482-0f04bcaea83c)
+- No coinciden al desconectarse, son diferentes al reiniciarse
 
-Sí, cada pestaña obtiene un ID diferente. Cuando cierras una de las pestañas, aparece un mensaje como:
-User disconnected - ID: abc123,
-y coincide con el ID del cliente que se cerró.
 
 
 ---
@@ -39,8 +40,7 @@ y coincide con el ID del cliente que se cerró.
 
 Respuesta:
 
-Al mover page1, se registra el evento win1update y en consola aparece algo como:
-Received win1update from ID: abc123 Data: {x: ..., y: ..., width: ..., height: ...}
+Al mover page1, se registra el evento win1update
 
 Al mover page2, aparece win2update con datos similares.
 
@@ -56,8 +56,11 @@ Respuesta: Si cambias el puerto a 3001, el mensaje del servidor será:
 Server is listening on http://localhost:3001
 
 http://localhost:3000/page1 no funcionará, porque el servidor ya no está en ese puerto.
+![image](https://github.com/user-attachments/assets/819d96f2-6a48-475d-a9ac-94e52e3887b0)
 
 http://localhost:3001/page1 sí funcionará.
+![image](https://github.com/user-attachments/assets/2dd300e7-1308-4b6e-9d80-6d444b1e62e2)
+
 
 
 Esto demuestra que el navegador debe hacer peticiones al mismo puerto donde el servidor está escuchando. La variable port y server.listen() determinan en qué dirección el servidor acepta conexiones.
