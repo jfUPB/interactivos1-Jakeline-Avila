@@ -28,5 +28,6 @@ Analizar y explicar flujo de datos completo (móvil->servidor->escritorio): 3
 2. R/= En la aplicación intentando que funcionara pero se logró, tuve que experimentar demasiado y poner mi codigo en ia para ver que errores tenia.
 3. R/= Es como si el usuario controlara el escritorio con el dedo. Primero, cuando toco la pantalla del móvil, ese toque se convierte en datos: las coordenadas del dedo (x, y), el color, y si las partículas deben tener borde (stroke). Todo eso se mete en un objeto JSON.
 Ese objeto se manda al servidor usando Socket.IO. Pero como el servidor está en mi máquina, y yo uso el móvil desde otra red, uso Dev Tunnels para que el móvil lo pueda encontrar.
+
 4.R/=Creo que esta forma de usar el móvil como control remoto es útil para muchas cosas. Por ejemplo:
 En instalaciones interactivas, donde el público puede controlar algo que se proyecta en una pantalla.
